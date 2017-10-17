@@ -1,0 +1,27 @@
+#################################################
+# Custom property file
+#################################################
+
+#---- Section 1 : definition of source and target file
+sourcefile:toto.csv
+targetfile:.\output\output.csv|header=No mapping;Simple mapping in the same column;First part of mapping one to many;Second part of mapping one two many;Simple mapping in another column;Result of a double input mapping;First part of mapping many to many;second part of mapping many to many
+errorfile:.\output\error.txt
+rejectedlines:.\output\tutu.csv
+
+#---- Section 2 : definition of actions
+# format : sourcecolumns separated by comma:target columns separated by commas;mapping=XXX.csv or none source C1,..., CN target C1,...CM
+
+#-- copy
+C1:C1|copy
+#-- simple mapping same column
+C2:C2|map=map1.csv
+#-- simple mapping other column
+C3:C5|map=map2.csv
+#-- 1 to n mapping 
+C4:C3,C4|map=map3.csv
+#-- n to 1 mapping
+C5,C6:C6|map=map4.csv
+#-- n to 1 mapping
+C7,C8,C9:C7,C8|map=map5.csv|default=DEFAULT1;DEFAULT2
+
+

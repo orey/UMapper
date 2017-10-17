@@ -1,0 +1,8 @@
+===================================
+ERROR FILE
+- One line has not been mapped : AAAA7;BBBB7;CCCC7;DDDD7;EEEE7;FFFF7;GGGG7;HHHH7;IIII7
+Reason : Map operation: from columns 2 to 2 
+- One line has not been mapped : AAAA8;BBBB8;CCCC8;DDDD8;EEEE8;FFFF8;GGGG8;HHHH8;IIII8
+Reason : Map operation: from columns 2 to 2 
+- One line has not been mapped : AAAA9;BBBB9;CCCC9;DDDD9;EEEE9;FFFF9;GGGG9;HHHH9;IIII9
+Reason : Map operation: from columns 2 to 2 

@@ -1,0 +1,7 @@
+No mapping;Simple mapping in the same column;First part of mapping one to many;Second part of mapping one two many;Simple mapping in another column;Result of a double input mapping;First part of mapping many to many;second part of mapping many to many
+AAAA1;BBBB1';DDDD1';aerd;CCCC100-T01;ererer1;MAP1;MAP2
+AAAA2;BBBB2';DDDD2';aerd;CCCC100-T02;ererer1;MAP11;MAP21
+AAAA3;BBBB3';DDDD3';aerd;CCCC100-T03;ererer1;MAP12;MAP22
+AAAA4;BBBB4';DDDD4';aerd;CCCC100-T03;ererer1;MAP3;MAP3
+AAAA5;BBBB5';DDDD5';aerd;CCCC100-T04;ererer1;DEFAULT1;DEFAULT2
+AAAA6;BBBB6';DDDD6';aerd;CCCC100-T05;ererer1;DEFAULT1;DEFAULT2

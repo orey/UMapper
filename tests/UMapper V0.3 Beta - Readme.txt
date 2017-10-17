@@ -1,0 +1,46 @@
+----------------------------------------------------------------------
+V0.3 Beta - XX/12/2008: Delivery UMapper
+----------------------------------------------------------------------
+V0.3 Beta functional release note
+- Default value was implemented
+- Change in command file format for file variable. Now using '=' instead of ':'. Please update your configurations files
+- Cleaning of verbose mode done
+----------------------------------------------------------------------
+V0.3 Beta technical release note
+- Various refactoring and utilities
+----------------------------------------------------------------------
+Purpose of the UMapper tool
+- This tool is converting CSV data files by doing manipulations on columns. Manipulations are done based on operations on the columns. Those operations are using mapping files (CSV).
+- A verbose mode is available.
+
+Global syntax of launching (command line)
+java -jar UMapper.jar -c command.run [-verbose]
+
+System Requirements
+- JRE 5 and + (http://java.sun.com/javase/downloads/index.jsp)
+- To check java version installed: java -version in a console
+
+Functionality
+- Copy value of one source column in a target column
+- Map 1 column to 1 other column using a mapping file
+- Map 1 columns to many columns using a mapping file
+- Map many columns to 1 column using a mapping file
+- Map many columns to many columns using a mapping file
+
+Default value can be used
+- Refer to sample commands.run file
+
+Files formats:
+- Control file syntax: TXT specific syntax (see below)
+- Input data file: CSV
+- Output data file: CSV
+- Mapping files: CSV
+- Error file: TXT
+- Non mapped lines: CSV
+
+Syntax of control file:
+TBD
+
+----------------------------------------------------------------------
+To be developed in next versions:
+- Aggregation of lines of various currencies
